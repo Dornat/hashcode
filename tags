@@ -1,0 +1,300 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFF_SIZE	lft3.1/includes/get_next_line.h	/^# define BUFF_SIZE /;"	d
+CFLAGS	lft3.1/Makefile	/^CFLAGS = -g -Wall -Wextra -Werror$/;"	m
+FPCBX	lft3.1/ft_printf/ft_pf_parse_width.c	/^#define FPCBX /;"	d	file:
+FPCFB	lft3.1/ft_printf/ft_pf_parse_precision.c	/^#define FPCFB /;"	d	file:
+FPCFC	lft3.1/ft_printf/ft_pf_parse_precision.c	/^#define FPCFC /;"	d	file:
+FPCFF	lft3.1/ft_printf/ft_pf_parse_precision.c	/^#define FPCFF /;"	d	file:
+FPCT	lft3.1/ft_printf/ft_pf_parse_width.c	/^#define FPCT /;"	d	file:
+FT_PRINTF_H	lft3.1/includes/ft_printf.h	/^# define FT_PRINTF_H$/;"	d
+GET_NEXT_LINE_H	lft3.1/includes/get_next_line.h	/^# define GET_NEXT_LINE_H$/;"	d
+HASHCODE_H	hashcode.h	/^# define HASHCODE_H$/;"	d
+INCLUDE	lft3.1/Makefile	/^INCLUDE = -I .\/includes$/;"	m
+L	lft3.1/includes/ft_printf.h	/^		hh = 1, h, L, l, ll, z, j, t$/;"	e	enum:s_format::e_size
+LIBFT_H	lft3.1/includes/libft.h	/^# define LIBFT_H$/;"	d
+LORS	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^#define LORS /;"	d	file:
+NAME	lft3.1/Makefile	/^NAME = libft.a$/;"	m
+NULL_CHECK	lft3.1/ft_printf/ft_pf_string_wchar_raw.c	/^#define NULL_CHECK(/;"	d	file:
+OBJ	lft3.1/Makefile	/^OBJ = $(addprefix $(OBJ_PATH), $(SRC:.c=.o))$/;"	m
+OBJ_LIB	lft3.1/Makefile	/^OBJ_LIB = $(addprefix $(OBJ_LIB_PATH), $(SRC_LIB:.c=.o))$/;"	m
+OBJ_LIB_PATH	lft3.1/Makefile	/^OBJ_LIB_PATH = .\/libft\/$/;"	m
+OBJ_PATH	lft3.1/Makefile	/^OBJ_PATH = .\/ft_printf\/$/;"	m
+PF	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^#define PF /;"	d	file:
+PF	lft3.1/ft_printf/ft_pf_string_wchar_raw.c	/^#define PF /;"	d	file:
+PFI	lft3.1/ft_printf/ft_pf_res_p_flags_hash.c	/^#define PFI /;"	d	file:
+PFI	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^#define PFI /;"	d	file:
+SRC	lft3.1/Makefile	/^SRC =	ft_count_bits.c \\$/;"	m
+SRC_LIB	lft3.1/Makefile	/^SRC_LIB =	ft_atoi.c \\$/;"	m
+WF	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^#define WF /;"	d	file:
+big_x	lft3.1/includes/ft_printf.h	/^	unsigned int	big_x:1;$/;"	m	struct:s_format
+columns	hashcode.h	/^	unsigned int	columns;$/;"	m	struct:s_input
+content	lft3.1/includes/libft.h	/^	void			*content;$/;"	m	struct:s_list
+content_size	lft3.1/includes/libft.h	/^	size_t			content_size;$/;"	m	struct:s_list
+e_size	lft3.1/includes/ft_printf.h	/^	enum			e_size$/;"	g	struct:s_format
+fc	lft3.1/ft_printf/ft_pf_itoa_long_long.c	/^static int		fc(int long long ll)$/;"	f	file:
+find_fd	lft3.1/libft/get_next_line.c	/^static t_list	*find_fd(const int fd, t_list **all)$/;"	f	file:
+finish	hashcode.h	/^	unsigned int	finish[2];$/;"	m	struct:s_ride
+flag_apostrophe	lft3.1/includes/ft_printf.h	/^	unsigned int	flag_apostrophe:1;$/;"	m	struct:s_format
+flag_hash	lft3.1/includes/ft_printf.h	/^	unsigned int	flag_hash:1;$/;"	m	struct:s_format
+flag_minus	lft3.1/includes/ft_printf.h	/^	unsigned int	flag_minus:1;$/;"	m	struct:s_format
+flag_plus	lft3.1/includes/ft_printf.h	/^	unsigned int	flag_plus:1;$/;"	m	struct:s_format
+flag_space	lft3.1/includes/ft_printf.h	/^	unsigned int	flag_space:1;$/;"	m	struct:s_format
+flag_zero	lft3.1/includes/ft_printf.h	/^	unsigned int	flag_zero:1;$/;"	m	struct:s_format
+ft_atoi	lft3.1/libft/ft_atoi.c	/^int		ft_atoi(const char *str)$/;"	f
+ft_bit_size	lft3.1/ft_printf/ft_pf_res_unicode.c	/^static int				ft_bit_size(unsigned int b)$/;"	f	file:
+ft_bubsort_intarr	lft3.1/libft/ft_bubsort_intarr.c	/^void	ft_bubsort_intarr(int *arr, int size_of_arr)$/;"	f
+ft_bzero	lft3.1/libft/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f
+ft_cfbt	lft3.1/ft_printf/ft_printf.c	/^int		ft_cfbt(char c)$/;"	f
+ft_count_bits	lft3.1/ft_printf/ft_count_bits.c	/^int			ft_count_bits(unsigned long long dec)$/;"	f
+ft_count_c	lft3.1/libft/ft_itoa_base.c	/^static int		ft_count_c(unsigned long nb, int base)$/;"	f	file:
+ft_dgtsinnum	lft3.1/libft/ft_itoa.c	/^static int		ft_dgtsinnum(int n)$/;"	f	file:
+ft_else	lft3.1/libft/ft_itoa.c	/^static char		*ft_else(int n, char *res)$/;"	f	file:
+ft_isalnum	lft3.1/libft/ft_isalnum.c	/^int		ft_isalnum(int c)$/;"	f
+ft_isalpha	lft3.1/libft/ft_isalpha.c	/^int		ft_isalpha(int c)$/;"	f
+ft_isascii	lft3.1/libft/ft_isascii.c	/^int		ft_isascii(int c)$/;"	f
+ft_isdigit	lft3.1/libft/ft_isdigit.c	/^int		ft_isdigit(int c)$/;"	f
+ft_isprint	lft3.1/libft/ft_isprint.c	/^int		ft_isprint(int c)$/;"	f
+ft_itoa	lft3.1/libft/ft_itoa.c	/^char			*ft_itoa(int n)$/;"	f
+ft_itoa_base	lft3.1/libft/ft_itoa_base.c	/^char			*ft_itoa_base(unsigned int nb, int base)$/;"	f
+ft_kostyl	lft3.1/libft/ft_itoa.c	/^static char		*ft_kostyl(char *res)$/;"	f	file:
+ft_less	lft3.1/libft/ft_itoa.c	/^static char		*ft_less(int n, char *res)$/;"	f	file:
+ft_lstadd	lft3.1/libft/ft_lstadd.c	/^void	ft_lstadd(t_list **alst, t_list *new)$/;"	f
+ft_lstadd_atend	lft3.1/libft/ft_lstadd_atend.c	/^void	ft_lstadd_atend(t_list **alst, t_list *new)$/;"	f
+ft_lstdel	lft3.1/libft/ft_lstdel.c	/^void	ft_lstdel(t_list **alst, void (*del)(void*, size_t))$/;"	f
+ft_lstdelfunc	lft3.1/libft/ft_lstdelfunc.c	/^void	ft_lstdelfunc(void *content, size_t content_size)$/;"	f
+ft_lstdelone	lft3.1/libft/ft_lstdelone.c	/^void	ft_lstdelone(t_list **alst, void (*del)(void*, size_t))$/;"	f
+ft_lstiter	lft3.1/libft/ft_lstiter.c	/^void	ft_lstiter(t_list *lst, void (*f)(t_list *elem))$/;"	f
+ft_lstmap	lft3.1/libft/ft_lstmap.c	/^t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))$/;"	f
+ft_lstnew	lft3.1/libft/ft_lstnew.c	/^t_list	*ft_lstnew(void const *content, size_t content_size)$/;"	f
+ft_lstnew2	lft3.1/libft/get_next_line.c	/^static t_list	*ft_lstnew2(void const *content, size_t content_size)$/;"	f	file:
+ft_lstrev	lft3.1/libft/ft_lstrev.c	/^void	ft_lstrev(t_list **alst)$/;"	f
+ft_memalloc	lft3.1/libft/ft_memalloc.c	/^void	*ft_memalloc(size_t size)$/;"	f
+ft_memccpy	lft3.1/libft/ft_memccpy.c	/^void	*ft_memccpy(void *dst, const void *src, int c, size_t n)$/;"	f
+ft_memchr	lft3.1/libft/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
+ft_memcmp	lft3.1/libft/ft_memcmp.c	/^int		ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+ft_memcpy	lft3.1/libft/ft_memcpy.c	/^void	*ft_memcpy(void *dst, const void *src, size_t n)$/;"	f
+ft_memdel	lft3.1/libft/ft_memdel.c	/^void	ft_memdel(void **ap)$/;"	f
+ft_memmove	lft3.1/libft/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memset	lft3.1/libft/ft_memset.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f
+ft_merge	lft3.1/libft/ft_merge.c	/^void	ft_merge(int *left_arr, int *right_arr,$/;"	f
+ft_mergesort_intarr	lft3.1/libft/ft_mergesort_intarr.c	/^void	ft_mergesort_intarr(int *arr, int size_of_arr)$/;"	f
+ft_pf_are_there_dolar	lft3.1/ft_printf/ft_pf_parse_parameter.c	/^static int		ft_pf_are_there_dolar(const char *s)$/;"	f	file:
+ft_pf_check_for_big_sdouxc	lft3.1/ft_printf/ft_pf_check_functions.c	/^int		ft_pf_check_for_big_sdouxc(char c)$/;"	f
+ft_pf_check_for_every_type	lft3.1/ft_printf/ft_pf_check_functions.c	/^int		ft_pf_check_for_every_type(char c)$/;"	f
+ft_pf_check_for_flag	lft3.1/ft_printf/ft_pf_check_functions.c	/^int		ft_pf_check_for_flag(char c)$/;"	f
+ft_pf_check_for_flag_except_zero	lft3.1/ft_printf/ft_pf_parse_precision.c	/^static int		ft_pf_check_for_flag_except_zero(char c)$/;"	f	file:
+ft_pf_check_for_n_w	lft3.1/ft_printf/ft_pf_res_s_width.c	/^static void		ft_pf_check_for_n_w(t_format *all)$/;"	f	file:
+ft_pf_check_for_negative_w	lft3.1/ft_printf/ft_pf_res_c_width.c	/^static void		ft_pf_check_for_negative_w(t_format *all)$/;"	f	file:
+ft_pf_check_for_negative_width	lft3.1/ft_printf/ft_pf_res_d_i_width.c	/^static void		ft_pf_check_for_negative_width(t_format *all)$/;"	f	file:
+ft_pf_check_for_t_size	lft3.1/ft_printf/ft_pf_check_functions.c	/^int		ft_pf_check_for_t_size(char c)$/;"	f
+ft_pf_check_for_the_center	lft3.1/ft_printf/ft_printf.c	/^int		ft_pf_check_for_the_center(char c)$/;"	f
+ft_pf_check_for_type	lft3.1/ft_printf/ft_pf_check_functions.c	/^int		ft_pf_check_for_type(char c)$/;"	f
+ft_pf_deal_with_b	lft3.1/ft_printf/ft_pf_deal_with_b.c	/^void	ft_pf_deal_with_b(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_deal_with_c	lft3.1/ft_printf/ft_pf_deal_with_c.c	/^void			ft_pf_deal_with_c(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_deal_with_d_i	lft3.1/ft_printf/ft_pf_deal_with_d_i.c	/^void	ft_pf_deal_with_d_i(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_deal_with_n	lft3.1/ft_printf/ft_pf_deal_with_n.c	/^void	ft_pf_deal_with_n(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_deal_with_o	lft3.1/ft_printf/ft_pf_deal_with_o.c	/^void	ft_pf_deal_with_o(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_deal_with_p	lft3.1/ft_printf/ft_pf_deal_with_p.c	/^void	ft_pf_deal_with_p(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_deal_with_percent	lft3.1/ft_printf/ft_pf_deal_with_percent.c	/^void	ft_pf_deal_with_percent(const char **format, t_format *all, \\$/;"	f
+ft_pf_deal_with_s	lft3.1/ft_printf/ft_pf_deal_with_s.c	/^void	ft_pf_deal_with_s(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_deal_with_shitty_type	lft3.1/ft_printf/ft_pf_deal_with_shitty_type.c	/^void	ft_pf_deal_with_shitty_type(const char **format, t_format *all, \\$/;"	f
+ft_pf_deal_with_u	lft3.1/ft_printf/ft_pf_deal_with_u.c	/^void	ft_pf_deal_with_u(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_deal_with_x	lft3.1/ft_printf/ft_pf_deal_with_x.c	/^void	ft_pf_deal_with_x(t_format *all, va_list ap, unsigned int *len)$/;"	f
+ft_pf_dec_to_hex	lft3.1/ft_printf/ft_pf_dec_to_hex_functions.c	/^char	*ft_pf_dec_to_hex(unsigned long long int input)$/;"	f
+ft_pf_dec_to_oct_ui	lft3.1/ft_printf/ft_pf_dec_to_oct_functions.c	/^char		*ft_pf_dec_to_oct_ui(unsigned int dec)$/;"	f
+ft_pf_dec_to_oct_ull	lft3.1/ft_printf/ft_pf_dec_to_oct_functions.c	/^char		*ft_pf_dec_to_oct_ull(unsigned long long dec)$/;"	f
+ft_pf_dec_to_oct_us	lft3.1/ft_printf/ft_pf_dec_to_oct_functions.c	/^char		*ft_pf_dec_to_oct_us(unsigned short dec)$/;"	f
+ft_pf_dec_to_oct_uss	lft3.1/ft_printf/ft_pf_dec_to_oct_functions.c	/^char		*ft_pf_dec_to_oct_uss(unsigned char dec)$/;"	f
+ft_pf_everything_failed	lft3.1/ft_printf/ft_pf_parse_parameter.c	/^int				ft_pf_everything_failed(char c)$/;"	f
+ft_pf_find_digit_index	lft3.1/ft_printf/ft_pf_find_functions.c	/^int			ft_pf_find_digit_index(char *s)$/;"	f
+ft_pf_find_hex_index	lft3.1/ft_printf/ft_pf_find_functions.c	/^int			ft_pf_find_hex_index(char *s)$/;"	f
+ft_pf_find_minus	lft3.1/ft_printf/ft_pf_find_functions.c	/^int			ft_pf_find_minus(char *s)$/;"	f
+ft_pf_hex_for_tou	lft3.1/ft_printf/ft_pf_res_x_flags.c	/^static int		ft_pf_hex_for_tou(char c)$/;"	f	file:
+ft_pf_hex_to_upper	lft3.1/ft_printf/ft_pf_res_x_flags.c	/^static void		ft_pf_hex_to_upper(char **res)$/;"	f	file:
+ft_pf_if_check	lft3.1/ft_printf/ft_pf_res_d_i_flags_space.c	/^static int		ft_pf_if_check(char *s, int i)$/;"	f	file:
+ft_pf_ishex	lft3.1/ft_printf/ft_pf_find_functions.c	/^static int	ft_pf_ishex(char c)$/;"	f	file:
+ft_pf_itoa_long_long	lft3.1/ft_printf/ft_pf_itoa_long_long.c	/^char			*ft_pf_itoa_long_long(int long long ll)$/;"	f
+ft_pf_itoa_unsigned_int	lft3.1/ft_printf/ft_pf_itoa_unsigned_int.c	/^char			*ft_pf_itoa_unsigned_int(unsigned int ui)$/;"	f
+ft_pf_itoa_unsigned_long_long	lft3.1/ft_printf/ft_pf_itoa_unsigned_long_long.c	/^char			*ft_pf_itoa_unsigned_long_long(unsigned long long int ui)$/;"	f
+ft_pf_itob	lft3.1/ft_printf/ft_pf_itob.c	/^char	*ft_pf_itob(unsigned long long int octet)$/;"	f
+ft_pf_long_long	lft3.1/ft_printf/ft_pf_functions_for_res_d_i.c	/^long long int	ft_pf_long_long(t_format *all, va_list ap)$/;"	f
+ft_pf_long_long_u	lft3.1/ft_printf/ft_pf_functions_for_res_u.c	/^unsigned long long	ft_pf_long_long_u(t_format *all, va_list ap)$/;"	f
+ft_pf_long_n	lft3.1/ft_printf/ft_pf_functions_for_res_n.c	/^long			*ft_pf_long_n(t_format *all, va_list ap)$/;"	f
+ft_pf_normal_d_i	lft3.1/ft_printf/ft_pf_functions_for_res_d_i.c	/^int				ft_pf_normal_d_i(t_format *all, va_list ap)$/;"	f
+ft_pf_normal_n	lft3.1/ft_printf/ft_pf_functions_for_res_n.c	/^int				*ft_pf_normal_n(t_format *all, va_list ap)$/;"	f
+ft_pf_normal_p	lft3.1/ft_printf/ft_pf_functions_for_res_p.c	/^size_t		ft_pf_normal_p(t_format *all, va_list ap)$/;"	f
+ft_pf_normal_u	lft3.1/ft_printf/ft_pf_functions_for_res_u.c	/^unsigned int		ft_pf_normal_u(t_format *all, va_list ap)$/;"	f
+ft_pf_parse_flags	lft3.1/ft_printf/ft_pf_parse_flags.c	/^void	ft_pf_parse_flags(const char **format, t_format *all)$/;"	f
+ft_pf_parse_parameter	lft3.1/ft_printf/ft_pf_parse_parameter.c	/^int				ft_pf_parse_parameter(const char **format)$/;"	f
+ft_pf_parse_precision	lft3.1/ft_printf/ft_pf_parse_precision.c	/^void			ft_pf_parse_precision(const char **format, t_format *all, \\$/;"	f
+ft_pf_parse_precision_elif	lft3.1/ft_printf/ft_pf_parse_precision.c	/^static void		ft_pf_parse_precision_elif(const char **format, t_format *all, \\$/;"	f	file:
+ft_pf_parse_precision_if	lft3.1/ft_printf/ft_pf_parse_precision.c	/^static void		ft_pf_parse_precision_if(const char **format, t_format *all, \\$/;"	f	file:
+ft_pf_parse_size	lft3.1/ft_printf/ft_pf_parse_size.c	/^void			ft_pf_parse_size(const char **format, t_format *all)$/;"	f
+ft_pf_parse_size_big_sdouxc	lft3.1/ft_printf/ft_pf_parse_size.c	/^static void		ft_pf_parse_size_big_sdouxc(const char **format, t_format *all)$/;"	f	file:
+ft_pf_parse_size_hh	lft3.1/ft_printf/ft_pf_parse_size.c	/^static void		ft_pf_parse_size_hh(const char **format, t_format *all)$/;"	f	file:
+ft_pf_parse_size_ifs	lft3.1/ft_printf/ft_pf_parse_size.c	/^static void		ft_pf_parse_size_ifs(const char **format, t_format *all)$/;"	f	file:
+ft_pf_parse_size_ll	lft3.1/ft_printf/ft_pf_parse_size.c	/^static void		ft_pf_parse_size_ll(const char **format, t_format *all)$/;"	f	file:
+ft_pf_parse_width	lft3.1/ft_printf/ft_pf_parse_width.c	/^void			ft_pf_parse_width(const char **format, t_format *all, \\$/;"	f
+ft_pf_parse_width_elif	lft3.1/ft_printf/ft_pf_parse_width.c	/^static void		ft_pf_parse_width_elif(const char **format, t_format *all, \\$/;"	f	file:
+ft_pf_pet_extention	lft3.1/ft_printf/ft_pf_put_everything_together.c	/^static void		ft_pf_pet_extention(const char **format, t_format *all, \\$/;"	f	file:
+ft_pf_print_c_ifnull	lft3.1/ft_printf/ft_pf_deal_with_c.c	/^static void		ft_pf_print_c_ifnull(t_format *all, char *res, \\$/;"	f	file:
+ft_pf_put_commas	lft3.1/ft_printf/ft_pf_res_d_i_flags_apostrophe.c	/^static char		*ft_pf_put_commas(char *dst, char *src, t_format *all, \\$/;"	f	file:
+ft_pf_put_everything_together	lft3.1/ft_printf/ft_pf_put_everything_together.c	/^void			ft_pf_put_everything_together(const char **format, \\$/;"	f
+ft_pf_put_spaces	lft3.1/ft_printf/ft_pf_res_b_flags_space.c	/^static char		*ft_pf_put_spaces(char *dst, char *src, t_format *all, \\$/;"	f	file:
+ft_pf_pw_else	lft3.1/ft_printf/ft_pf_parse_width.c	/^static void		ft_pf_pw_else(char *res, t_format *all)$/;"	f	file:
+ft_pf_pw_if	lft3.1/ft_printf/ft_pf_parse_width.c	/^static void		ft_pf_pw_if(t_format *all, va_list ap)$/;"	f	file:
+ft_pf_remove_zeroes	lft3.1/ft_printf/ft_pf_res_d_i_flags_apostrophe.c	/^static void		ft_pf_remove_zeroes(char **dst, t_format *all)$/;"	f	file:
+ft_pf_remove_zers	lft3.1/ft_printf/ft_pf_res_b_flags_space.c	/^static void		ft_pf_remove_zers(char **dst, t_format *all)$/;"	f	file:
+ft_pf_res_b_flags	lft3.1/ft_printf/ft_pf_res_b_flags.c	/^char	*ft_pf_res_b_flags(char *s, t_format *all)$/;"	f
+ft_pf_res_b_flags_space	lft3.1/ft_printf/ft_pf_res_b_flags_space.c	/^char			*ft_pf_res_b_flags_space(char *s, t_format *all)$/;"	f
+ft_pf_res_b_raw	lft3.1/ft_printf/ft_pf_res_b_raw.c	/^char	*ft_pf_res_b_raw(t_format *all, va_list ap)$/;"	f
+ft_pf_res_c_flags	lft3.1/ft_printf/ft_pf_res_c_flags.c	/^char	*ft_pf_res_c_flags(char *s, t_format *all, int null, int space)$/;"	f
+ft_pf_res_c_flags_minus	lft3.1/ft_printf/ft_pf_res_c_flags_minus.c	/^char	*ft_pf_res_c_flags_minus(char *s, int null, t_format *all)$/;"	f
+ft_pf_res_c_flags_zero	lft3.1/ft_printf/ft_pf_res_c_flags_zero.c	/^char	*ft_pf_res_c_flags_zero(char *s, int space)$/;"	f
+ft_pf_res_c_raw	lft3.1/ft_printf/ft_pf_res_c_raw.c	/^char	*ft_pf_res_c_raw(t_format *all, va_list ap)$/;"	f
+ft_pf_res_c_width	lft3.1/ft_printf/ft_pf_res_c_width.c	/^char			*ft_pf_res_c_width(char *s, t_format *all, int null)$/;"	f
+ft_pf_res_d_i_flag_plus_elif	lft3.1/ft_printf/ft_pf_res_d_i_flags_plus.c	/^static void		ft_pf_res_d_i_flag_plus_elif(char *s, char **res)$/;"	f	file:
+ft_pf_res_d_i_flags	lft3.1/ft_printf/ft_pf_res_d_i_flags.c	/^char	*ft_pf_res_d_i_flags(char *s, t_format *all)$/;"	f
+ft_pf_res_d_i_flags_apostrophe	lft3.1/ft_printf/ft_pf_res_d_i_flags_apostrophe.c	/^char			*ft_pf_res_d_i_flags_apostrophe(char *s, t_format *all)$/;"	f
+ft_pf_res_d_i_flags_minus	lft3.1/ft_printf/ft_pf_res_d_i_flags_minus.c	/^char	*ft_pf_res_d_i_flags_minus(char *s, t_format *all)$/;"	f
+ft_pf_res_d_i_flags_plus	lft3.1/ft_printf/ft_pf_res_d_i_flags_plus.c	/^char			*ft_pf_res_d_i_flags_plus(char *s, t_format *all)$/;"	f
+ft_pf_res_d_i_flags_space	lft3.1/ft_printf/ft_pf_res_d_i_flags_space.c	/^char			*ft_pf_res_d_i_flags_space(char *s, t_format *all)$/;"	f
+ft_pf_res_d_i_flags_zero	lft3.1/ft_printf/ft_pf_res_d_i_flags_zero.c	/^char	*ft_pf_res_d_i_flags_zero(char *s, t_format *all)$/;"	f
+ft_pf_res_d_i_precision	lft3.1/ft_printf/ft_pf_res_d_i_precision.c	/^char			*ft_pf_res_d_i_precision(char *s, t_format *all)$/;"	f
+ft_pf_res_d_i_precision_while	lft3.1/ft_printf/ft_pf_res_d_i_precision.c	/^static void		ft_pf_res_d_i_precision_while(char **res, char **s, \\$/;"	f	file:
+ft_pf_res_d_i_raw	lft3.1/ft_printf/ft_pf_res_d_i_raw.c	/^char	*ft_pf_res_d_i_raw(t_format *all, va_list ap)$/;"	f
+ft_pf_res_d_i_width	lft3.1/ft_printf/ft_pf_res_d_i_width.c	/^char			*ft_pf_res_d_i_width(char *s, t_format *all)$/;"	f
+ft_pf_res_mask1	lft3.1/ft_printf/ft_pf_res_unicode.c	/^static unsigned char	*ft_pf_res_mask1(unsigned int b)$/;"	f	file:
+ft_pf_res_mask2	lft3.1/ft_printf/ft_pf_res_unicode.c	/^static unsigned char	*ft_pf_res_mask2(unsigned int b)$/;"	f	file:
+ft_pf_res_mask3	lft3.1/ft_printf/ft_pf_res_unicode.c	/^static unsigned char	*ft_pf_res_mask3(unsigned int b)$/;"	f	file:
+ft_pf_res_o_flags	lft3.1/ft_printf/ft_pf_res_o_flags.c	/^char	*ft_pf_res_o_flags(char *s, t_format *all)$/;"	f
+ft_pf_res_o_flags_hash	lft3.1/ft_printf/ft_pf_res_o_flags_hash.c	/^char			*ft_pf_res_o_flags_hash(char *s, t_format *all)$/;"	f
+ft_pf_res_o_flags_hash_elif	lft3.1/ft_printf/ft_pf_res_o_flags_hash.c	/^static void		ft_pf_res_o_flags_hash_elif(char *s, char **res)$/;"	f	file:
+ft_pf_res_o_flags_minus	lft3.1/ft_printf/ft_pf_res_o_flags_minus.c	/^char	*ft_pf_res_o_flags_minus(char *s)$/;"	f
+ft_pf_res_o_raw	lft3.1/ft_printf/ft_pf_deal_with_o_raw.c	/^char	*ft_pf_res_o_raw(t_format *all, va_list ap)$/;"	f
+ft_pf_res_p_flags	lft3.1/ft_printf/ft_pf_res_p_flags.c	/^char	*ft_pf_res_p_flags(char *s, t_format *all)$/;"	f
+ft_pf_res_p_flags_hash	lft3.1/ft_printf/ft_pf_res_p_flags_hash.c	/^char			*ft_pf_res_p_flags_hash(char *s, t_format *all)$/;"	f
+ft_pf_res_p_flags_hash_elif1	lft3.1/ft_printf/ft_pf_res_p_flags_hash.c	/^static void		ft_pf_res_p_flags_hash_elif1(char *s, char **res, t_format *all)$/;"	f	file:
+ft_pf_res_p_flags_hash_elif2	lft3.1/ft_printf/ft_pf_res_p_flags_hash.c	/^static void		ft_pf_res_p_flags_hash_elif2(char *s, char **res, \\$/;"	f	file:
+ft_pf_res_p_flags_hash_if	lft3.1/ft_printf/ft_pf_res_p_flags_hash.c	/^static void		ft_pf_res_p_flags_hash_if(char **s)$/;"	f	file:
+ft_pf_res_p_raw	lft3.1/ft_printf/ft_pf_deal_with_p_raw.c	/^char	*ft_pf_res_p_raw(t_format *all, va_list ap)$/;"	f
+ft_pf_res_s_flags	lft3.1/ft_printf/ft_pf_res_s_flags.c	/^char	*ft_pf_res_s_flags(char *s, t_format *all)$/;"	f
+ft_pf_res_s_flags_minus	lft3.1/ft_printf/ft_pf_res_s_flags_minus.c	/^char	*ft_pf_res_s_flags_minus(char *s, t_format *all)$/;"	f
+ft_pf_res_s_flags_zero	lft3.1/ft_printf/ft_pf_res_s_flags_zero.c	/^char	*ft_pf_res_s_flags_zero(char *s, t_format *all)$/;"	f
+ft_pf_res_s_precision	lft3.1/ft_printf/ft_pf_res_s_precision.c	/^char	*ft_pf_res_s_precision(char *s, t_format *all)$/;"	f
+ft_pf_res_s_raw	lft3.1/ft_printf/ft_pf_res_s_raw.c	/^char	*ft_pf_res_s_raw(t_format *all, va_list ap)$/;"	f
+ft_pf_res_s_width	lft3.1/ft_printf/ft_pf_res_s_width.c	/^char			*ft_pf_res_s_width(char *s, t_format *all)$/;"	f
+ft_pf_res_shitty_type_flags	lft3.1/ft_printf/ft_pf_deal_with_shitty_type_flags.c	/^char	*ft_pf_res_shitty_type_flags(char *s, t_format *all)$/;"	f
+ft_pf_res_shitty_type_flags_minus	lft3.1/ft_printf/ft_pf_res_shitty_type_flags_minus.c	/^char	*ft_pf_res_shitty_type_flags_minus(char *s)$/;"	f
+ft_pf_res_shitty_type_flags_zero	lft3.1/ft_printf/ft_pf_res_shitty_type_flags_zero.c	/^char	*ft_pf_res_shitty_type_flags_zero(char *s, t_format *all)$/;"	f
+ft_pf_res_shitty_type_width	lft3.1/ft_printf/ft_pf_res_shitty_type_width.c	/^char	*ft_pf_res_shitty_type_width(const char **format, t_format *all)$/;"	f
+ft_pf_res_u_flags	lft3.1/ft_printf/ft_pf_res_u_flags.c	/^char	*ft_pf_res_u_flags(char *s, t_format *all)$/;"	f
+ft_pf_res_u_flags_minus	lft3.1/ft_printf/ft_pf_res_u_flags_minus.c	/^char	*ft_pf_res_u_flags_minus(char *s)$/;"	f
+ft_pf_res_u_raw	lft3.1/ft_printf/ft_pf_res_u_raw.c	/^char	*ft_pf_res_u_raw(t_format *all, va_list ap)$/;"	f
+ft_pf_res_unicode	lft3.1/ft_printf/ft_pf_res_unicode.c	/^unsigned char			*ft_pf_res_unicode(unsigned int b)$/;"	f
+ft_pf_res_x_flags	lft3.1/ft_printf/ft_pf_res_x_flags.c	/^char			*ft_pf_res_x_flags(char *s, t_format *all, int zero)$/;"	f
+ft_pf_res_x_flags_hash	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^char			*ft_pf_res_x_flags_hash(char *s, t_format *all)$/;"	f
+ft_pf_res_x_flags_hash_elif1	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^static void		ft_pf_res_x_flags_hash_elif1(char *s, char **res, t_format *all)$/;"	f	file:
+ft_pf_res_x_flags_hash_elif2	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^static void		ft_pf_res_x_flags_hash_elif2(char *s, char **res, \\$/;"	f	file:
+ft_pf_res_x_flags_hash_elif2_elif	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^static void		ft_pf_res_x_flags_hash_elif2_elif(char **res, t_format *all, \\$/;"	f	file:
+ft_pf_res_x_flags_hash_if	lft3.1/ft_printf/ft_pf_res_x_flags_hash.c	/^static void		ft_pf_res_x_flags_hash_if(char **s)$/;"	f	file:
+ft_pf_res_x_flags_minus	lft3.1/ft_printf/ft_pf_res_x_flags_minus.c	/^char	*ft_pf_res_x_flags_minus(char *s)$/;"	f
+ft_pf_res_x_flags_zero	lft3.1/ft_printf/ft_pf_res_x_flags_zero.c	/^char	*ft_pf_res_x_flags_zero(char *s, t_format *all)$/;"	f
+ft_pf_res_x_raw	lft3.1/ft_printf/ft_pf_deal_with_x_raw.c	/^char	*ft_pf_res_x_raw(t_format *all, va_list ap)$/;"	f
+ft_pf_set_zeros_to_struct_fields	lft3.1/ft_printf/ft_pf_set_zeroes_tp_struct_fields.c	/^void	ft_pf_set_zeros_to_struct_fields(t_format *all)$/;"	f
+ft_pf_short	lft3.1/ft_printf/ft_pf_functions_for_res_d_i.c	/^short			ft_pf_short(t_format *all, va_list ap)$/;"	f
+ft_pf_short_n	lft3.1/ft_printf/ft_pf_functions_for_res_n.c	/^short			*ft_pf_short_n(t_format *all, va_list ap)$/;"	f
+ft_pf_short_short	lft3.1/ft_printf/ft_pf_functions_for_res_d_i.c	/^char			ft_pf_short_short(t_format *all, va_list ap)$/;"	f
+ft_pf_short_short_u	lft3.1/ft_printf/ft_pf_functions_for_res_u.c	/^unsigned char		ft_pf_short_short_u(t_format *all, va_list ap)$/;"	f
+ft_pf_short_u	lft3.1/ft_printf/ft_pf_functions_for_res_u.c	/^unsigned short		ft_pf_short_u(t_format *all, va_list ap)$/;"	f
+ft_pf_string	lft3.1/ft_printf/ft_pf_string.c	/^char		*ft_pf_string(t_format *all, va_list ap)$/;"	f
+ft_pf_string_wchar	lft3.1/ft_printf/ft_pf_string.c	/^wchar_t		*ft_pf_string_wchar(t_format *all, va_list ap)$/;"	f
+ft_pf_string_wchar_raw	lft3.1/ft_printf/ft_pf_string_wchar_raw.c	/^char			*ft_pf_string_wchar_raw(wchar_t *ws, t_format *all)$/;"	f
+ft_pf_sw_prec	lft3.1/ft_printf/ft_pf_string_wchar_raw.c	/^static char		*ft_pf_sw_prec(wchar_t *ws, t_format *all, int len_ws, int i)$/;"	f	file:
+ft_pf_the_center	lft3.1/ft_printf/ft_printf.c	/^void	ft_pf_the_center(const char **format, t_format *all, va_list ap, \\$/;"	f
+ft_pf_wchar	lft3.1/ft_printf/ft_pf_wchar.c	/^int		ft_pf_wchar(t_format *all, va_list ap)$/;"	f
+ft_pf_wcharlen	lft3.1/ft_printf/ft_pf_string_wchar_raw.c	/^static int		ft_pf_wcharlen(wchar_t *s)$/;"	f	file:
+ft_power	lft3.1/libft/ft_power.c	/^int		ft_power(int nb, int power)$/;"	f
+ft_printf	lft3.1/ft_printf/ft_printf.c	/^int		ft_printf(const char *format, ...)$/;"	f
+ft_putchar	lft3.1/libft/ft_putchar.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar_fd	lft3.1/libft/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f
+ft_putendl	lft3.1/libft/ft_putendl.c	/^void	ft_putendl(char const *s)$/;"	f
+ft_putendl_fd	lft3.1/libft/ft_putendl_fd.c	/^void	ft_putendl_fd(char const *s, int fd)$/;"	f
+ft_putnbr	lft3.1/libft/ft_putnbr.c	/^void	ft_putnbr(int n)$/;"	f
+ft_putnbr_fd	lft3.1/libft/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f
+ft_putstr	lft3.1/libft/ft_putstr.c	/^void	ft_putstr(char const *s)$/;"	f
+ft_putstr_fd	lft3.1/libft/ft_putstr_fd.c	/^void	ft_putstr_fd(char const *s, int fd)$/;"	f
+ft_sqrt	lft3.1/libft/ft_sqrt.c	/^int		ft_sqrt(int nb)$/;"	f
+ft_strcat	lft3.1/libft/ft_strcat.c	/^char	*ft_strcat(char *dst, const char *src)$/;"	f
+ft_strchr	lft3.1/libft/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strclr	lft3.1/libft/ft_strclr.c	/^void	ft_strclr(char *s)$/;"	f
+ft_strcmp	lft3.1/libft/ft_strcmp.c	/^int		ft_strcmp(const char *s1, const char *s2)$/;"	f
+ft_strcpy	lft3.1/libft/ft_strcpy.c	/^char	*ft_strcpy(char *dst, const char *src)$/;"	f
+ft_strdel	lft3.1/libft/ft_strdel.c	/^void	ft_strdel(char **as)$/;"	f
+ft_strdup	lft3.1/libft/ft_strdup.c	/^char	*ft_strdup(const char *src)$/;"	f
+ft_strequ	lft3.1/libft/ft_strequ.c	/^int		ft_strequ(char const *s1, char const *s2)$/;"	f
+ft_striter	lft3.1/libft/ft_striter.c	/^void	ft_striter(char *s, void (*f)(char*))$/;"	f
+ft_striteri	lft3.1/libft/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char*))$/;"	f
+ft_strjoin	lft3.1/libft/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strlcat	lft3.1/libft/ft_strlcat.c	/^size_t	ft_strlcat(char *dst, const char *src, size_t siz)$/;"	f
+ft_strlen	lft3.1/libft/ft_strlen.c	/^size_t	ft_strlen(const char *str)$/;"	f
+ft_strmap	lft3.1/libft/ft_strmap.c	/^char	*ft_strmap(char const *s, char (*f)(char))$/;"	f
+ft_strmapi	lft3.1/libft/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strncat	lft3.1/libft/ft_strncat.c	/^char	*ft_strncat(char *dst, const char *src, size_t n)$/;"	f
+ft_strncmp	lft3.1/libft/ft_strncmp.c	/^int		ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strncpy	lft3.1/libft/ft_strncpy.c	/^char	*ft_strncpy(char *dst, const char *src, size_t len)$/;"	f
+ft_strnequ	lft3.1/libft/ft_strnequ.c	/^int		ft_strnequ(char const *s1, char const *s2, size_t n)$/;"	f
+ft_strnew	lft3.1/libft/ft_strnew.c	/^char	*ft_strnew(size_t size)$/;"	f
+ft_strnstr	lft3.1/libft/ft_strnstr.c	/^char	*ft_strnstr(const char *big, const char *little, size_t len)$/;"	f
+ft_strrchr	lft3.1/libft/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strrev	lft3.1/libft/ft_strrev.c	/^void	ft_strrev(char *s)$/;"	f
+ft_strsplit	lft3.1/libft/ft_strsplit.c	/^char		**ft_strsplit(char const *s, char c)$/;"	f
+ft_strstr	lft3.1/libft/ft_strstr.c	/^char	*ft_strstr(const char *big, const char *little)$/;"	f
+ft_strsub	lft3.1/libft/ft_strsub.c	/^char	*ft_strsub(char const *s, unsigned int start, size_t len)$/;"	f
+ft_strtrim	lft3.1/libft/ft_strtrim.c	/^char	*ft_strtrim(char const *s)$/;"	f
+ft_swap_i	lft3.1/libft/ft_swap_i.c	/^void	ft_swap_i(int *a, int *b)$/;"	f
+ft_swap_s	lft3.1/libft/ft_swap_s.c	/^void	ft_swap_s(char **a, char **b)$/;"	f
+ft_symbnum	lft3.1/libft/ft_strsplit.c	/^static int	ft_symbnum(const char *s, char c)$/;"	f	file:
+ft_tolower	lft3.1/libft/ft_tolower.c	/^int		ft_tolower(int c)$/;"	f
+ft_toupper	lft3.1/libft/ft_toupper.c	/^int		ft_toupper(int c)$/;"	f
+ft_wordnum	lft3.1/libft/ft_strsplit.c	/^static int	ft_wordnum(const char *s, char c)$/;"	f	file:
+get_next_line	lft3.1/libft/get_next_line.c	/^int				get_next_line(const int fd, char **line)$/;"	f
+h	lft3.1/includes/ft_printf.h	/^		hh = 1, h, L, l, ll, z, j, t$/;"	e	enum:s_format::e_size
+hh	lft3.1/includes/ft_printf.h	/^		hh = 1, h, L, l, ll, z, j, t$/;"	e	enum:s_format::e_size
+itoa_isnegative	lft3.1/ft_printf/ft_pf_itoa_long_long.c	/^static void		itoa_isnegative(long long int *ll, long long int *negative)$/;"	f	file:
+j	lft3.1/includes/ft_printf.h	/^		hh = 1, h, L, l, ll, z, j, t$/;"	e	enum:s_format::e_size
+l	lft3.1/includes/ft_printf.h	/^		hh = 1, h, L, l, ll, z, j, t$/;"	e	enum:s_format::e_size
+l_finish	hashcode.h	/^	unsigned int	l_finish;$/;"	m	struct:s_ride
+l_start	hashcode.h	/^	unsigned int	l_start;$/;"	m	struct:s_ride
+len_of_raw_s	lft3.1/includes/ft_printf.h	/^	int				len_of_raw_s;$/;"	m	struct:s_format
+ll	lft3.1/includes/ft_printf.h	/^		hh = 1, h, L, l, ll, z, j, t$/;"	e	enum:s_format::e_size
+main	main.c	/^int		main(int ac, char **av)$/;"	f
+next	lft3.1/includes/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+parameter_field	lft3.1/includes/ft_printf.h	/^	unsigned int	parameter_field;$/;"	m	struct:s_format
+precision_field	lft3.1/includes/ft_printf.h	/^	int				precision_field;$/;"	m	struct:s_format
+precision_field_identifier	lft3.1/includes/ft_printf.h	/^	unsigned int	precision_field_identifier:1;$/;"	m	struct:s_format
+read_from_file	lft3.1/libft/get_next_line.c	/^static int		read_from_file(const int fd, t_list **ptr)$/;"	f	file:
+rides	hashcode.h	/^	unsigned int	rides;$/;"	m	struct:s_input
+rows	hashcode.h	/^	unsigned int	rows;$/;"	m	struct:s_input
+s_format	lft3.1/includes/ft_printf.h	/^typedef struct		s_format$/;"	s
+s_input	hashcode.h	/^typedef struct		s_input$/;"	s
+s_list	lft3.1/includes/libft.h	/^typedef struct		s_list$/;"	s
+s_ride	hashcode.h	/^typedef struct		s_ride$/;"	s
+start	hashcode.h	/^	unsigned int	start[2];$/;"	m	struct:s_ride
+steps	hashcode.h	/^	unsigned int	steps;$/;"	m	struct:s_input
+t	lft3.1/includes/ft_printf.h	/^		hh = 1, h, L, l, ll, z, j, t$/;"	e	enum:s_format::e_size
+t_format	lft3.1/includes/ft_printf.h	/^}					t_format;$/;"	t	typeref:struct:s_format
+t_input	hashcode.h	/^}					t_input;$/;"	t	typeref:struct:s_input
+t_list	lft3.1/includes/libft.h	/^}					t_list;$/;"	t	typeref:struct:s_list
+t_ride	hashcode.h	/^}					t_ride;$/;"	t	typeref:struct:s_ride
+t_size	lft3.1/includes/ft_printf.h	/^	}				t_size;$/;"	m	struct:s_format	typeref:enum:s_format::e_size
+vehicles	hashcode.h	/^	unsigned int	vehicles;$/;"	m	struct:s_input
+width_field	lft3.1/includes/ft_printf.h	/^	int				width_field;$/;"	m	struct:s_format
+width_field_identifier	lft3.1/includes/ft_printf.h	/^	unsigned int	width_field_identifier:1;$/;"	m	struct:s_format
+write_to_line	lft3.1/libft/get_next_line.c	/^static int		write_to_line(t_list **ptr, char **line)$/;"	f	file:
+z	lft3.1/includes/ft_printf.h	/^		hh = 1, h, L, l, ll, z, j, t$/;"	e	enum:s_format::e_size
