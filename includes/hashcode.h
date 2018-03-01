@@ -6,7 +6,7 @@
 /*   By: dpolosuk <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/01 20:30:59 by dpolosuk          #+#    #+#             */
-/*   Updated: 2018/03/01 21:01:01 by dpolosuk         ###   ########.fr       */
+/*   Updated: 2018/03/01 21:17:25 by dpolosuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,6 @@ typedef struct		s_ride
 	unsigned int	finish[2];
 	unsigned int	l_start;
 	unsigned int	l_finish;
+	unsigned int	n_of_ride;
 }					t_ride;
 #endif
